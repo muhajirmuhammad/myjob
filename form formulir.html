@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>contoh form formulir pendaftaran html</title>
+</head>
+<body>
+<p><b>Formulir pendaftaran kursus</b></p>
+<form method="POST" action=" simpan.php" name="form_kursus">
+<table width="100%">
+<tr>
+   <td>Nama</td>
+   <td>:</td>
+   <td><input type="text" name="nama" size="39"></td>
+</tr>
+<tr>
+   <td>jenis kelamin</td>
+   <td>:</td>
+   <td><input type="radio" volue="L" checked name="jkl">laki laki
+   <input type="radio" name="jkl" volue="P">perempuan</td>
+</tr>
+<tr>
+   <td>Alamat</td>
+   <td>:</td>
+   <td><input type="text" name="alamat" size="39"></td>
+</tr>
+<tr>
+   <td>propinsi</td>
+   <td>:</td>
+   <td><select size="1" name="propinsi">
+   <option>jawa barat</option>
+   <option>jawa tengah</option>
+   <option>jawa timur</option>
+   </select></td>
+</tr>
+<tr>
+   <td>pilih kursus</td>
+   <td>:</td>
+   <td><input type="checkbox" name="kursus"
+   volue="inggris">bahasa inggris<br>
+   <input type="checkbox" name="kursus"
+   volue="komputer">komputer</td>
+</tr>
+<tr>
+   <td>foto</td>
+   <td>:</td>
+   <td><input type="file" name="foto" volue="foto"></td>
+</tr>
+</table>
+     <p><input type="submit" value="submit" name="Bsubmit">
+	 <input type="reset" value="reset" name="Breset"></p>
+</form>
+</body>
+</html>   
