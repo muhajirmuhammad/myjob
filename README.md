@@ -1,2 +1,2 @@
 # myjob
-cara menmbut repository
+cara membuat repository, dan memperdalami gthub lebih mendalam lagi.
